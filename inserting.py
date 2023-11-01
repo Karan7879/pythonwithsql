@@ -7,8 +7,10 @@ statement = insert(user_table)
 
 with engine.connect() as conn:
     conn.execute(statement,[
-            {'name': "Tes1",'fullname':"comp1"},
-            {'name': "Test2",'fullname':"comp2"}          
+            {'name': "Tes3",'fullname':"comp3"},
+            {'name': "Test4",'fullname':"comp4"},
+            {'name': "Tes5",'fullname':"comp5"},
+            {'name': "Test6",'fullname':"comp6"}            
                  ])
     conn.commit()
 
